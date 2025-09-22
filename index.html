@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Online Diary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Surabhi Yadav</h1>
-    <img src="images/pic1.jpg" class="img1" alt="pic1">
-    <img src="images/pic2.jpg" class="img2" alt="pic2">
-    <img src="images/pic3.jpg" class="img3" alt="pic3">
+
+    <div class="taskbar">
+        <div class="app-icon" onclick="openPopup('notes.html', 'My Notes')">
+          <img src="https://tenor.com/view/cat-gif-5741966814299446049.gif" alt="Notes">
+          <p>Notes</p>
+        </div>
+        <div class="app-icon" onclick="openPopup('gallery.html', 'Gallery')">
+          <img src="https://tenor.com/view/nod-cat-nod-mhm-yes-si-gif-2415999401071647832.gif" alt="Gallery">
+          <p>Gallery</p>
+        </div>
+        <div class="app-icon" onclick="openPopup('stuff.html', 'Books')">
+          <img src="https://tenor.com/view/reading-cat-viralhog-studying-scanning-gif-1227762145672638557.gif" alt="Books">
+          <p>Books</p>
+        </div>
+        <div class="app-icon" onclick="openPopup('work.html', 'Work')">
+          <img src="https://tenor.com/view/plink-nerd-plank-plink-cat-cat-gif-17569403098672348326.gif" alt="Work">
+          <p>Work</p>
+        </div>
+        <div class="app-icon" onclick="openPopup('music.html', 'Music')">
+            <img src="https://tenor.com/view/cat-music-gif-2870533956898932895.gif" alt="Music">
+            <p>Music</p>
+          </div>
+          <div class="app-icon" onclick="openPopup('shows.html', 'Shows')">
+            <img src="https://tenor.com/view/watching-fat-cute-huggab-gif-23574098.gif" alt="Shows">
+            <p>Shows</p>
+          </div>
+      </div>
+
+      <div id="popup-container"></div>
+
+
+    <h1>Surabhi Yadav</h1><br>
+    <p class="intro">i love cats, books and coffee :) </p>
+
+
+<!-- Your custom JS -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
